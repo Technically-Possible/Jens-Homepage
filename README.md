@@ -1,6 +1,8 @@
-![banner habu](docs/videos/bannerHabu.gif)
+![](https://github.com/Technically-Possible/Jens-Homepage/blob/main/docs/videos/bannerHabu.gif)
 
 Experience the minimalist design of Neovim's based dashboard & Catppuccin Mocha palette in your browser with Habu. Simple to set up and fully customizable. 🚀 Take a look at this productive space with this [demo page](https://habu.netlify.app/), currently hosted on [Netlify](https://app.netlify.com/).
+## 💞 Jens Modification
+The Neovim Dashboard Homepage is a customized new tab page inspired by [kaloslazo's](https://github.com/kaloslazo/Habu) minimalist dashboard design and the Catppuccino Mocha color palette. It serves as a visually pleasing and functional homepage for your browser. By forking the original project and making customizations, I have transformed it into a personalized homepage that I use whenever I open a new tab.
 
 ## ⚙️ Development
 
