@@ -1,4 +1,4 @@
-// AUTHOR: Kalos lazo
+// AUTHOR: Kalos Lazo
 // GITHUB: @kaloslazo
 
 const WEATHER_ELEMENT = document.getElementById("weather_data");
@@ -17,10 +17,17 @@ const getCurrentWeather = async () => {
 
 const getCurrentTime = () => {
   const date = new Date();
-  const hours = date.getHours().toString().padStart(2, "0");
+  let hours = date.getHours();
+  let meridiem = "AM";
+
+  if (hours > 12) {
+    hours -= 12;
+    meridiem = "PM";
+  }
+
   const minutes = date.getMinutes().toString().padStart(2, "0");
 
-  TIME_ELEMENT.textContent = `${hours}:${minutes}`;
+  TIME_ELEMENT.textContent = `${hours}:${minutes} ${meridiem}`;
 };
 
 const getCurrentDate = () => {
